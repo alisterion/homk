@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOMK</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="js/Pixi.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/main.css"/>
+    </head>
+    <body>
+        <script>
+            var ui_height = 200;
+            var max_height = window.innerHeight - ui_height;
+            var max_width = window.innerWidth;
+            console.log(max_width, max_height);
+            var island = null;
+            var castele = null;
+            var postition = 0;
+
+
+            var background = null;
+            var onAssetsLoaded = function() {
+                background = PIXI.Sprite.fromImage("models/sky_multik.png");
+                stage.addChild(background);
+                background.position.x = 0;
+                background.width = max_width;
+                background.height = max_height;
+                // create a texture from an image path
+                var texture = PIXI.Texture.fromImage("models/Lush_Island.png");
+
+                // create a new Sprite using the texture
+                island = new PIXI.Sprite(texture);
+
+                var castle_texture_normal = PIXI.Texture.fromImage("models/castleofknowledge_small.png");
+
+                // create a new Sprite using the texture
+                castele = new PIXI.Sprite(castle_texture_normal);
+
+                var temple_texture_normal = PIXI.Texture.fromImage("models/atlants.png");
+
+                temple = new PIXI.Sprite(temple_texture_normal);
+
+
+                // center the sprites anchor point
+                island.anchor.x = 0.5;
+                island.anchor.y = 0.5;
+
+                // move the sprite t the center of the screen
+                island.position.x = max_width / 2;
+                island.position.y = max_height - max_height / 2;
+
+                castele.position.x = island.position.x;
+                castele.position.y = island.position.y - 200;
+
+                temple.position.x = island.position.x - 290;
+                temple.position.y = island.position.y - 200;
+
+                castele.buttonMode = true;
+                castele.interactive = true;
+                temple.buttonMode = true;
+                temple.interactive = true;
+
+                castele.click = function(data) {
+                    alert("click")
+                }
+
+                castele.mouseover = function(data) {
+                    var textureButtonOver = PIXI.Texture.fromImage("models/castleofknowledge_over.png");
+                    this.setTexture(textureButtonOver);
+                }
+
+                castele.mouseout = function() {
+                    this.setTexture(castle_texture_normal)
+                }
+
+
+                temple.click = function(data) {
+                    alert("click")
+                }
+
+                temple.mouseover = function(data) {
+                    var textureButtonOver = PIXI.Texture.fromImage("models/atlants_over.png");
+                    this.setTexture(textureButtonOver);
+                }
+
+                temple.mouseout = function() {
+                    this.setTexture(temple_texture_normal)
+                }
+
+                stage.addChild(island);
+                stage.addChild(castele);
+                stage.addChild(temple);
+
+            }
+
+
+
+
+            // create an array of assets to load
+
+            var assetsToLoader = ["models/sky_multik.png", "models/Lush_Island.png", "models/castleofknowledge_small.png", "models/castleofknowledge_over.png", "models/atlants.png"];
+
+            // create a new loader
+            loader = new PIXI.AssetLoader(assetsToLoader);
+
+            // use callback
+            loader.onComplete = onAssetsLoaded;
+
+            //begin load
+            loader.load();
+
+            // create an new instance of a pixi stage
+            var stage = new PIXI.Stage(0x078fdc);
+
+            // create a renderer instance
+            var renderer = PIXI.autoDetectRenderer(max_width, max_height);
+            renderer.view.style.display = "block";
+            ;
+            renderer.view.style.width = "100%";
+            renderer.view.style.height = "100%";
+            // add the renderer view element to the DOM
+            document.body.appendChild(renderer.view);
+
+            requestAnimFrame(animate);
+
+
+            function animate() {
+
+
+                requestAnimFrame(animate);
+
+
+
+                // render the stage
+                renderer.render(stage);
+            }
+
+        </script>
+        <div id="ui_down">
+            <div id="chat_zone">
+                <ul id="chat_main">
+                    <li class="message"><span class="time">12:12:56</span><span class="user_name">Bob</span>:<span class="text">Hello im bob</span></li>
+                    <li class="message"><span class="time">12:12:56</span><span class="user_name">Piter</span>:<span class="text">Nice game</span></li>
+                    <li class="message"><span class="time">12:12:56</span><span class="user_name">Vasia</span>:<span class="text">I learn all</span></li>
+                    <li class="message"><span class="time">12:12:56</span><span class="user_name">Lenchik</span>:<span class="text">Not bad!</span></li>
+                    <li class="message"><span class="time">12:12:56</span><span class="user_name">Alex</span>:<span class="text">I wand pvp duel</span></li>
+                    <li class="message"><span class="time">12:12:56</span><span class="user_name">Igor</span>:<span class="text">Want to get to know the API? This is the place to be…</span></li>
+                    <li class="message"><span class="time">12:12:56</span><span class="user_name">Yriy</span>:<span class="text">Emanuele Feronato shows you how to make a neat little pairs game.</span></li>
+                </ul>
+            </div>
+            <div id="avatar_zone">
+                <div class="user_avatar">
+                    <img src="img/user_neutral.png"/>
+                </div>
+                <div class="user_level">
+                    Level : 1
+                </div>
+                <div class="other_info">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                </div>
+            </div>
+            <div id="users_online"></div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,372 @@
+{"frames": [
+
+{
+	"filename": "Lush_Island0000.png",
+	"frame": {"x":674,"y":1346,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0001.png",
+	"frame": {"x":674,"y":1346,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0002.png",
+	"frame": {"x":674,"y":1346,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0003.png",
+	"frame": {"x":1376,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0004.png",
+	"frame": {"x":1376,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0005.png",
+	"frame": {"x":1376,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0006.png",
+	"frame": {"x":1376,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0007.png",
+	"frame": {"x":1376,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0008.png",
+	"frame": {"x":1376,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0009.png",
+	"frame": {"x":674,"y":674,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0010.png",
+	"frame": {"x":674,"y":674,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0011.png",
+	"frame": {"x":674,"y":674,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0012.png",
+	"frame": {"x":1376,"y":2,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0013.png",
+	"frame": {"x":1376,"y":2,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0014.png",
+	"frame": {"x":1376,"y":2,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0015.png",
+	"frame": {"x":674,"y":2,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0016.png",
+	"frame": {"x":674,"y":2,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0017.png",
+	"frame": {"x":674,"y":2,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0018.png",
+	"frame": {"x":2,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0019.png",
+	"frame": {"x":2,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0020.png",
+	"frame": {"x":2,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0021.png",
+	"frame": {"x":2,"y":2,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0022.png",
+	"frame": {"x":2,"y":2,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0023.png",
+	"frame": {"x":2,"y":2,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0024.png",
+	"frame": {"x":2,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0025.png",
+	"frame": {"x":2,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0026.png",
+	"frame": {"x":2,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0027.png",
+	"frame": {"x":674,"y":2,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0028.png",
+	"frame": {"x":674,"y":2,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0029.png",
+	"frame": {"x":674,"y":2,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0030.png",
+	"frame": {"x":674,"y":2,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0031.png",
+	"frame": {"x":674,"y":2,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0032.png",
+	"frame": {"x":674,"y":2,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0033.png",
+	"frame": {"x":1376,"y":2,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0034.png",
+	"frame": {"x":1376,"y":2,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0035.png",
+	"frame": {"x":1376,"y":2,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0036.png",
+	"frame": {"x":674,"y":674,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0037.png",
+	"frame": {"x":674,"y":674,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0038.png",
+	"frame": {"x":674,"y":674,"w":670,"h":700},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0039.png",
+	"frame": {"x":1376,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0040.png",
+	"frame": {"x":1376,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0041.png",
+	"frame": {"x":1376,"y":704,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0042.png",
+	"frame": {"x":674,"y":1346,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0043.png",
+	"frame": {"x":674,"y":1346,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+},
+{
+	"filename": "Lush_Island0044.png",
+	"frame": {"x":674,"y":1346,"w":670,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":700},
+	"sourceSize": {"w":670,"h":700}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "test_island_anim.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:65116f70d8d6d73ddc47810f10751872:467ba48a827fedb439748613a3a8cdca:1047aead9de30608406a98d1065f15c5$"
+}
+}
